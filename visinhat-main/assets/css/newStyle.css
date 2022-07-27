@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.product {
+    width: 100%;
+
+}
+.nav_all {
+    width: 75%;
+    min-height: 1000px;
+    margin: 0 auto;
+
+
+
+}
+.nav_1 {
+    display: flex;
+}
+.nav_1_1 {
+    width: 27%;
+    height: 700px;
+    border-right: 1px solid #ececec;
+    padding-right: 30px;
+
+    
+}
+.nav_1_sp1 {
+    display: flex;
+    gap: 14px;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0px 11px 0px
+    
+    
+    
+}
+.nav_1_sp1 a{
+    font-weight: bold;
+    color: black;
+    font-size: 130%;
+    line-height: 40px;
+}
+.nav_1_sp1 p {
+    color: rgb(209, 9, 9);
+    font-weight: bold;
+    
+}
+.nav_1_bai_viet li {
+    margin-top: 20px ;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 19px;
+    
+}
+
+
+.nav_1_bai_viet li a{
+    color: #000000;
+}
+
+
+
+/* ------------------------------ */
+
+
+
+
+.nav_1_2 {
+    width: 40%;
+    height: 700px;
+    
+
+}
+/* ------------------------------- */
+.nav_1_3 {
+    width: 40%;
+    height: 700px;
+    line-height: 30px;
+    border-left: 1px solid #ececec;
+    padding-left: 30px;
+    margin-top: 20px;
+    
+}
+#button_1 {
+    width: 250px;
+    height: 55px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #CC1122;
+    color: white;
+}
+
+#button_1:hover{
+    background-image: linear-gradient(0, #fc3243, #CC1122);
+    cursor: pointer;
+}
+
+#button_2 {
+    width: 376px;
+    height: 55px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #F8820B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button_2:hover{
+    background-image: linear-gradient(0, #ff9f3e, #F8820B);
+    cursor: pointer;
+}
+
+/* ----------------------------- */
+.nav_2 {
+    height: 50px;
+    width: 100%;
+    background-color: #824A1A;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.nav_2 a {
+    color: white;
+}
+
+.nav_2 a:hover{
+    color: rgb(233, 233, 233);
+}
+
+
+/* ---------------------------------- */
+.nav_3 li {
+    margin-top: 20px;
+    color: rgb(4, 87, 4);
+}
+.nav_3 a {
+    color: rgb(8, 97, 8);
+}
+.nav_3 p {
+    margin-top: 10px;
+}
+.nav_3 h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.product_meta>span {
+    display: block;
+    border-top: 1px dotted #ddd;
+    padding: 5px 0;
+}
+
+.product_meta {
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+
+
+.footer-distributed{
+	background: #458f46;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	
+	padding: 55px 50px;
+    margin-top: 100px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-size: 32px;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #ffffff;
+	color: #458f46;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+    /* vertical-align: middle: can giua theo phan bao ngoai */
+	vertical-align: middle;
+}
+
+
+.footer-distributed .footer-center i:hover{
+    background-color:  rgb(254 151 5);
+    color: #ffffff;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+    font-weight : 400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color: white;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #ffffff;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #458f46;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+    background-color:  rgb(254 151 5);
+    color: #ffffff;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: #1c1c1c;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+#wrapper .header {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+#wrapper .header a {
+    text-decoration-line: none;
+    color: #fff ;
+}
+
+#wrapper .header a:hover{
+    opacity: 70%;
+}
+
+#wrapper .header .header_left {
+    margin-right: 285px;
+}
+
+#wrapper .header:hover{
+    opacity: 70%;
+}
+
+#wrapper_right .header span {
+    padding: 10px;
+}
+
+#header_inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+#header_inner .header_logo { 
+    display: flex;
+}   
+
+#header_inner .header_logo a:hover{
+    background-color: rgb(254 151 5);
+    color: white;
+}
+
+#header_inner .header_logo:hover .logo_header{
+    background-color: white;
+}
+
+
+#header_inner .header_logo ul {
+    list-style: none;
+}
+
+#header_inner .header_logo i {
+    font-size: 30px;
+    margin: auto 30px;
+    color : rgb(254 151 5);
+}
+
+#header_inner .header_logo li {
+    margin: 10px;
+}
+
+#header_inner .header_logo .giohang {
+    padding: 10px 20px;
+    background-color: #458f46;
+    border-radius: 30px;
+    text-decoration-line: none;
+    color: #fff;
+}
+
+#container-full {
+    background-color: #458f46;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    
+    
+} 
+
+#container-menu {
+    gap: 20px;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+#container-menu .container_list {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    
+    
+}
+
+
+#container-menu .container_list:hover {
+    background-color: #ccc;
+    
+}
+
+#container-menu .container_list:hover > a{
+    color: black;
+} 
+
+
+.container_list #search{
+    width: 390px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: none;
+    margin-left: 100px;
+    
+   
+}
+
+#container-menu .detail-header{
+    text-decoration: none;
+    color: white;
+}
+
+.zoom-big{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    
+}
+
+.zoom-big:hover{
+    transform: scale(1.7,1.7);
+    -webkit-transform: scale(1.7,1.7);
+    -moz-transform: scale(1.7,1.7);
+    -o-transform: scale(1.7,1.7);
+    -ms-transform: scale(1.7,1.7);
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
